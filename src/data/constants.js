@@ -11,6 +11,21 @@ import daniela from "./../images/daniela.jpeg"
 
 
 /**/ 
+
+import proyecto1 from "./../images/nuevoProyectos.jpg"
+import proyecto2 from "./../images/proyecto2.jpg"
+import lapicerosHuesos from "./../images/lapicerosdehuesos.jpeg" 
+
+import proyecto3 from "./../images/proyecto3.jpg"
+import proyecto4 from "./../images/proyecto4.jpg"
+
+import proyecto5 from "./../images/proyecto5.jpg"
+import proyecto6 from "./../images/proyecto6.jpg"
+
+
+import radTech from "./../images/radTech.png"
+
+/**/ 
 import Joseph from "./../images/Joseph.jpg"
 import Jose from "./../images/Jose.jpg"
 import Alessandro from "./../images/Alessandro.jpg"
@@ -21,7 +36,9 @@ import Sebastian from "./../images/Sebastian.jpg"
 import Victor from "./../images/Victor.jpg"
 import Xiomara from "./../images/Xiomara.jpg"
 import Joaquin from "./../images/kvo.jpg"
-
+import kevis from "./../images/kevi.png"
+import ricardo from "./../images/ricardo.jpeg"
+import nicola from "./../images/nicolay 1.jpg"
 
 import Kaeysi from "./../images/Kaeysi.jpg"
 import Daniela from "./../images/Daniela.jpg"
@@ -59,7 +76,7 @@ export const Bio = {
     "Joaquin Mallcco Arche 👦",
   ],
   description:
-    "En la Universidad Nacional Federico Villareal, creemos en el poder de la investigación y el compromiso de nuestros estudiantes con el aprendizaje y la excelencia académica. Es por eso que hemos creado este espacio dedicado a todos los miembros de nuestra comunidad educativa.",
+    "En la Universidad Nacional Federico Villarreal, creemos en el poder de la investigación y el compromiso de nuestros estudiantes con el aprendizaje y la excelencia académica. Es por eso que hemos creado este espacio dedicado a todos los miembros de nuestra comunidad educativa.",
   resume:
     "https://www.unfv.edu.pe/",
   
@@ -373,6 +390,7 @@ export const projects = [
     date: "06-09-23",
     description:
       "",
+     
     image:
       alfaro,
       imagepi:"",
@@ -529,28 +547,7 @@ export const projects = [
   
     ],
   },
-  {
-    id: 7,
-    title: "Trabajo de Innovación",
-    date: "06-09-23",
-    description:
-      "",
-      image: pipi,
-    tags: ["Proyecto","Radiologia","Base 21"],
-    category: "web app",
-
-    github: "",
-    webapp: "",
-    member: [
-      {
-        name: "Diaz Cuaresma Elvis Anthony",
-        img: "https://media.mykaramelli.com/img/avatar.jpg",
-        linkedin: "",
-        github: "",
-      },
-  
-    ],
-  },
+ 
   {
     id: 8,
     title: "Trabajo de Innovación",
@@ -642,28 +639,7 @@ export const projects = [
   
     ],
   },
-  {
-    id: 12,
-    title: "Trabajo de Innovación",
-    date: "06-09-23",
-    description:
-      "",
-      image: pipi,
-    tags: ["Proyecto","Radiologia","Base 21"],
-    category: "web app",
-
-    github: "",
-    webapp: "",
-    member: [
-      {
-        name: "Huanca Barrios Nilda Milanea",
-        img: "https://us.123rf.com/450wm/thesomeday123/thesomeday1231712/thesomeday123171200008/91087328-icono-de-perfil-de-avatar-predeterminado-para-mujer-marcador-de-posici%C3%B3n-de-foto-gris-vector-de.jpg?ver=6v",
-        linkedin: "",
-        github: "",
-      },
-  
-    ],
-  },
+ 
   {
     id: 13,
     title: "Trabajo de Innovación",
@@ -738,7 +714,7 @@ export const projects = [
     date: "06-09-23",
     description:
       "",
-      image:joaquin,
+      image:kevis,
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
 
@@ -754,28 +730,7 @@ export const projects = [
   
     ],
   },
-  {
-    id: 17,
-    title: "Trabajo de Innovación",
-    date: "06-09-23",
-    description:
-      "",
-      image: pipi,
-    tags: ["Proyecto","Radiologia","Base 21"],
-    category: "web app",
-
-    github: "",
-    webapp: "",
-    member: [
-      {
-        name: "Meneses Mayuri Dayanara Dubleyska",
-        img: "https://us.123rf.com/450wm/thesomeday123/thesomeday1231712/thesomeday123171200008/91087328-icono-de-perfil-de-avatar-predeterminado-para-mujer-marcador-de-posici%C3%B3n-de-foto-gris-vector-de.jpg?ver=6v",
-        linkedin: "",
-        github: "",
-      },
-  
-    ],
-  },
+ 
   {
     id: 18,
     title: "Trabajo de Innovación",
@@ -800,28 +755,7 @@ export const projects = [
     ],
   },
  
-  {
-    id: 19,
-    title: "Trabajo de Innovación",
-    date: "06-09-23",
-    description:
-      "",
-      image: pipi,
-    tags: ["Proyecto","Radiologia","Base 21"],
-    category: "web app",
-
-    github: "",
-    webapp: "",
-    member: [
-      {
-        name: "Milla Murguía Pedro Gonzalo",
-        img: "https://media.mykaramelli.com/img/avatar.jpg",
-        linkedin: "",
-        github: "",
-      },
   
-    ],
-  },
   {
     id: 20,
     title: "Trabajo de Innovación",
@@ -844,28 +778,7 @@ export const projects = [
   
     ],
   },
-  {
-    id: 21,
-    title: "Trabajo de Innovación",
-    date: "06-09-23",
-    description:
-      "",
-      image: pipi,
-    tags: ["Proyecto","Radiologia","Base 21"],
-    category: "web app",
-
-    github: "",
-    webapp: "",
-    member: [
-      {
-        name: "Molleapaza Daza Iván",
-        img: Iván,
-        linkedin: "",
-        github: "",
-      },
   
-    ],
-  },
   {
     id: 22,
     title: "Trabajo de Innovación",
@@ -912,21 +825,81 @@ export const projects = [
     ],
   },
   {
-    id: 24,
+    id: 23,
     title: "Trabajo de Innovación",
     date: "06-09-23",
     description:
       "",
-      image: pipi,
+    image:
+     ricardo,
     tags: ["Proyecto","Radiologia","Base 21"],
     category: "web app",
+
+    github: "https://unfvpe-my.sharepoint.com/personal/2021022528_unfv_edu_pe/Documents/INFORME%20DEL%20EMPRENDIMIENTO%20de%20ricardo.pdf?login_hint=2021022528%40unfv.edu.pe",
+    webapp: "",
+    member: [
+      {
+        name: "Ricardo Velasquez Pacco ",
+        img: "https://media.mykaramelli.com/img/avatar.jpg",
+        linkedin: "",
+        github: "",
+      },
+  
+    ],
+  },
+  {
+    id: 23,
+    title: "Trabajo de Innovación",
+    date: "06-09-23",
+    description:
+      "",
+    image:
+     nicola,
+    tags: ["Proyecto","Radiologia","Base 21"],
+    category: "web app",
+
+    github: "https://unfvpe-my.sharepoint.com/:w:/r/personal/2021022528_unfv_edu_pe/_layouts/15/Doc.aspx?sourcedoc=%7BFF3839D3-B483-4AB1-AE9F-10DCBE80D9B9%7D&file=RADIOLOGY%20STYLE%20-%20Mauricio%20Villaseca.docx&action=default&mobileredirect=true&login_hint=2021022528%40unfv.edu.pe&ct=1695262507095&wdOrigin=OFFICECOM-WEB.START.UPLOAD&cid=c44a7914-f5a6-4e61-a605-4044fae887e9&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=26f84b3d-2b09-4777-aade-9aafcb95adba",
+    webapp: "",
+    member: [
+      {
+        name: "Mauricio Villaseca ",
+        img: "https://media.mykaramelli.com/img/avatar.jpg",
+        linkedin: "",
+        github: "",
+      },
+  
+    ],
+  },
+  {
+    id: 24,
+    title: "XCase Fashionistas",
+   
+    date: "06-09-23",
+    description:
+      "",
+    image:
+    proyecto1,
+    tags: ["Proyecto","Radiologia","Base 21"],
+    category: "android app",
 
     github: "",
     webapp: "",
     member: [
       {
-        name: "Padilla Rodriguez Juan Carlos",
-        img: "https://media.mykaramelli.com/img/avatar.jpg",
+        name: "Jose Gomez Huaman",
+        img: Jose,
+        linkedin: "",
+        github: "",
+      },
+      {
+        name: "Kehidy Alfaro Porras",
+        img: Alfaro,
+        linkedin: "",
+        github: "",
+      },
+      {
+        name: "Alessandro Loroña Teran ",
+        img: Alessandro,
         linkedin: "",
         github: "",
       },
@@ -935,19 +908,27 @@ export const projects = [
   },
   {
     id: 25,
-    title: "Trabajo de Innovación",
+    title: "Radiology",
+ 
     date: "06-09-23",
     description:
       "",
-      image: pipi,
+    image:
+    proyecto2,
     tags: ["Proyecto","Radiologia","Base 21"],
-    category: "web app",
+    category: "android app",
 
     github: "",
     webapp: "",
     member: [
       {
-        name: "Pumaccahua Reto Alanis Carlyle",
+        name: "Ricardo velasquez Pacco",
+        img: "https://media.mykaramelli.com/img/avatar.jpg",
+        linkedin: "",
+        github: "",
+      },
+      {
+        name: "Pedro Milla Murgia",
         img: "https://media.mykaramelli.com/img/avatar.jpg",
         linkedin: "",
         github: "",
@@ -955,22 +936,31 @@ export const projects = [
   
     ],
   },
+
+
   {
     id: 26,
-    title: "Trabajo de Innovación",
+    title: "Estampados de polos",
     date: "06-09-23",
     description:
       "",
-      image: pipi,
+    image:
+    proyecto3,
     tags: ["Proyecto","Radiologia","Base 21"],
-    category: "web app",
+    category: "android app",
 
     github: "",
     webapp: "",
     member: [
       {
-        name: "Quispe Gomez Marco Antonio",
+        name: "Andy Machuca Soto",
         img: "https://media.mykaramelli.com/img/avatar.jpg",
+        linkedin: "",
+        github: "",
+      },
+      {
+        name: "Mirely Espinoza Lizarbe",
+        img: Mirely,
         linkedin: "",
         github: "",
       },
@@ -979,20 +969,40 @@ export const projects = [
   },
   {
     id: 27,
-    title: "Trabajo de Innovación",
+    title: "Diseño de polos",
+    name:"",
     date: "06-09-23",
     description:
       "",
-      image: pipi,
+    image:
+    proyecto4,
     tags: ["Proyecto","Radiologia","Base 21"],
-    category: "web app",
+    category: "android app",
 
     github: "",
     webapp: "",
     member: [
       {
-        name: "Sanchez Atanacio Leticia Lia",
-        img: "https://us.123rf.com/450wm/thesomeday123/thesomeday1231712/thesomeday123171200008/91087328-icono-de-perfil-de-avatar-predeterminado-para-mujer-marcador-de-posici%C3%B3n-de-foto-gris-vector-de.jpg?ver=6v",
+        name: "Ray Andrade Poemape ",
+        img: Ray,
+        linkedin: "",
+        github: "",
+      },
+      {
+        name: "Daniela Carrasco Bedoya ",
+        img: Daniela,
+        linkedin: "",
+        github: "",
+      },
+      {
+        name: "Sebastian Noriega Garcia",
+        img: Sebastian,
+        linkedin: "",
+        github: "",
+      },
+      {
+        name: "Patricia Castillo Quispe ",
+        img: "",
         linkedin: "",
         github: "",
       },
@@ -1001,112 +1011,153 @@ export const projects = [
   },
   {
     id: 28,
-    title: "Trabajo de Innovación",
+    title: "EL SPECTador",
+    name:"",
     date: "06-09-23",
     description:
       "",
-      image: pipi,
+    image:
+    proyecto5,
     tags: ["Proyecto","Radiologia","Base 21"],
-    category: "web app",
+    category: "android app",
 
     github: "",
     webapp: "",
     member: [
       {
-        name: "Valer Chambez Giuliana Karol",
-        img: "https://us.123rf.com/450wm/thesomeday123/thesomeday1231712/thesomeday123171200008/91087328-icono-de-perfil-de-avatar-predeterminado-para-mujer-marcador-de-posici%C3%B3n-de-foto-gris-vector-de.jpg?ver=6v",
+        name: "Victor Galindo Ramos ",
+        img: Victor,
         linkedin: "",
         github: "",
       },
-  
+      {
+        name: "Marcia Michue Joaquin",
+        img: Marcia,
+        linkedin: "",
+        github: "",
+      },
+      {
+        name: "Joseph Asencios Silva ",
+        img: Joseph,
+        linkedin: "",
+        github: "",
+      },
+      {
+        name: "Graciela Flores Huaman ",
+        img: Graciela,
+        linkedin: "",
+        github: "",
+      },
+    
     ],
   },
+
+  {
+    id: 28,
+    title: "Portalapiceros Arkasu",
+    name:"",
+    date: "06-09-23",
+    description:
+      "",
+    image:
+    lapicerosHuesos,
+    tags: ["Proyecto","Radiologia","Base 21"],
+    category: "android app",
+
+    github: "",
+    webapp: "",
+    member: [
+      {
+        name: "Susana Lescano ",
+        img: Susana,
+        linkedin: "",
+        github: "",
+      },
+      {
+        name: "Ariana Losano",
+        img: Ariana,
+        linkedin: "",
+        github: "",
+      },
+      {
+        name: "Kaeysi ",
+        img: Kaeysi,
+        linkedin: "",
+        github: "",
+      },
+   
+    
+    ],
+  },
+
   {
     id: 29,
-    title: "Trabajo de Innovación",
+    title: "Empresa Rad-Tech(Pagina Web)",
+    name:"",
     date: "06-09-23",
     description:
       "",
-      image: pipi,
+    image:
+    radTech,
     tags: ["Proyecto","Radiologia","Base 21"],
-    category: "web app",
+    category: "android app",
 
     github: "",
     webapp: "",
     member: [
       {
-        name: "Vasquez Roque Stephany Jackeline",
-        img: "https://us.123rf.com/450wm/thesomeday123/thesomeday1231712/thesomeday123171200008/91087328-icono-de-perfil-de-avatar-predeterminado-para-mujer-marcador-de-posici%C3%B3n-de-foto-gris-vector-de.jpg?ver=6v",
+        name: "David Olaya ",
+        img: David,
         linkedin: "",
         github: "",
       },
-  
-    ],
-  },
-  {
-    id: 30,
-    title: "Trabajo de Innovación",
-    date: "06-09-23",
-    description:
-      "",
-      image: pipi,
-    tags: ["Proyecto","Radiologia","Base 21"],
-    category: "web app",
-
-    github: "",
-    webapp: "",
-    member: [
       {
-        name: "Velasquez Pacco Ricardo Adolfo",
+        name: "Joaquin Mallcco Arche",
+        img: Joaquin,
+        linkedin: "",
+        github: "",
+      },
+      {
+        name: "Mauricio Villaseca ",
         img: "https://media.mykaramelli.com/img/avatar.jpg",
         linkedin: "",
         github: "",
       },
-  
+   
+    
     ],
   },
+
   {
-    id: 31,
-    title: "Trabajo de Innovación",
+    id: 30,
+    title: "x-shirt(poleras)",
+    name:"",
     date: "06-09-23",
     description:
       "",
-      image: pipi,
+    image:
+    proyecto6,
     tags: ["Proyecto","Radiologia","Base 21"],
-    category: "web app",
+    category: "android app",
 
     github: "",
     webapp: "",
     member: [
       {
-        name: "Velita Acosta Osmary Briset",
-        img: "https://us.123rf.com/450wm/thesomeday123/thesomeday1231712/thesomeday123171200008/91087328-icono-de-perfil-de-avatar-predeterminado-para-mujer-marcador-de-posici%C3%B3n-de-foto-gris-vector-de.jpg?ver=6v",
+        name: "Milagros Alfaro ",
+        img:milagros ,
         linkedin: "",
         github: "",
       },
-  
-    ],
-  },
-  {
-    id: 32,
-    title: "Trabajo de Innovación",
-    date: "06-09-23",
-    description:
-      "",
-      image: pipi,
-    tags: ["Proyecto","Radiologia","Base 21"],
-    category: "web app",
-
-    github: "",
-    webapp: "",
-    member: [
       {
-        name: "Zacarias Carhuallanqui Keyla Britny",
-        img: "https://us.123rf.com/450wm/thesomeday123/thesomeday1231712/thesomeday123171200008/91087328-icono-de-perfil-de-avatar-predeterminado-para-mujer-marcador-de-posici%C3%B3n-de-foto-gris-vector-de.jpg?ver=6v",
+        name: "Xiomara Arnao",
+        img: Xiomara,
         linkedin: "",
         github: "",
       },
-  
+      
+   
+    
     ],
   },
 ];

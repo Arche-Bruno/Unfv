@@ -16,28 +16,29 @@ const Projects = ({openModal,setOpenModal}) => {
           <b>   Lic. Arana</b> 
         </Desc>
         <ToggleButtonGroup >
-          {toggle === 'all' ?
+
+          {/*
+            {toggle === 'all' ?
             <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
             :
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
-          {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>Otros trabajos</ToggleButton>
-            :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>Otros trabajos</ToggleButton>
-          }
-          <Divider />
+          */ 
+        }
+        
+      
+       
           {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>Otros trabajos</ToggleButton>
+            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>Trabajo de empredimientos</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>Otros trabajos</ToggleButton>
+            <ToggleButton value="android app" onClick={() => setToggle('android app')}>Trabajo de emprendimientos</ToggleButton>
           }
           <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>Otros trabajos</ToggleButton>
+          {toggle === 'web app' ?
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>Trabajo de Innovación</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>Otros trabajos</ToggleButton>
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>Trabajo de Innovación</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
